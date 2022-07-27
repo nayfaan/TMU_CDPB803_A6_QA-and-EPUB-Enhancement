@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="PrimaryID" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>Famouse Modern Ghost Stories</dc:title>
+		<dc:language>en-US</dc:language>
+		<dc:identifier id="PrimaryID">978012345678911</dc:identifier>
+		<dc:creator id="creator">Various Authors</dc:creator>
+		<dc:publisher>Zag Press</dc:publisher>
+		<dc:date>2016-11-20</dc:date>
+		<meta property="dcterms:modified">2016-11-30T10:00:00Z</meta>
+	</metadata>
+	<manifest>
+		<item id="nav" href="9780123456789_Ghost_TOC.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item id="ncx" href="9780123456789_ghost_NCX.ncx" media-type="application/x-dtbncx+xml"/>
+		<!-- book contents -->
+		<item id="coverpage" href="9780123456789_Ghost_Cover.xhtml" media-type="application/xhtml+xml"/>
+		<item id="titlepage" href="9780123456789_titlepage.xhtml" media-type="application/xhtml+xml"/>
+		<item id="c01" href="9780123456789_1_AtTheGate.xhtml" media-type="application/xhtml+xml"/>
+		<item id="c02" href="9780123456789_2_Ligeia.xhtml" media-type="application/xhtml+xml"/>
+		<item id="c03" href="9780123456789_3_HauntedOrchard.xhtml" media-type="application/xhtml+xml"/>
+		<item id="c04" href="9780123456789_4_Bowmen.xhtml" media-type="application/xhtml+xml"/>
+		<item id="c05" href="9780123456789_5_Ghost.xhtml" media-type="application/xhtml+xml"/>
+		<item id="p01" href="9780123456789_Part1.xhtml" media-type="application/xhtml+xml"/>
+		<item id="p02" href="9780123456789_Part2.xhtml" media-type="application/xhtml+xml"/>
+		<item id="p03" href="9780123456789_Part3.xhtml" media-type="application/xhtml+xml"/>
+		<item id="p04" href="9780123456789_Part4.xhtml" media-type="application/xhtml+xml"/>
+		<item id="p05" href="9780123456789_Part5.xhtml" media-type="application/xhtml+xml"/>
+		<!--CSS-->
+		<item id="css" href="9780123456789_style.css" media-type="text/css"/>
+		<!--images-->
+		<item id="coverimg" href="images/9780123456789_cover.jpg" media-type="image/jpeg"/>
+		<!--fonts-->
+		<item id="font1" href="fonts/SourceSansPro-Black.otf" media-type="font/otf"/>
+		<item id="font2" href="fonts/SourceSansPro-BlackIt.otf" media-type="font/otf"/>
+		<item id="font3" href="fonts/SourceSansPro-Light.otf" media-type="font/otf"/>
+		<item id="font4" href="fonts/SourceSansPro-LightIt.otf" media-type="font/otf"/>
+		<item id="font6" href="fonts/SourceSansPro-SemiboldIt.otf" media-type="font/otf"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="coverpage" linear="yes"/>
+		<itemref idref="titlepage" linear="yes"/>
+		<itemref idref="nav" linear="yes"/>
+		<itemref idref="p01" linear="yes"/>
+		<itemref idref="c01" linear="yes"/>
+		<itemref idref="p02" linear="yes"/>
+		<itemref idref="c02" linear="yes"/>
+		<itemref idref="p03" linear="yes"/>
+		<itemref idref="c03" linear="yes"/>
+		<itemref idref="p04" linear="yes"/>
+		<itemref idref="c04" linear="yes"/>
+		<itemref idref="p05" linear="yes"/>
+		<itemref idref="c05" linear="yes"/>
+	</spine>
+	<guide>
+		<reference type="start" title="Start" href="Part1.xhtml"/>
+		<reference type="toc" title="Table of Contents" href="Ghost_TOC.xhtml"/>
+		<reference type="cover" title="Cover" href="Ghost_TOC.xhtml"/>
+		<reference type="text" href="Part1.xhtml"/>
+	</guide>
+</package>
