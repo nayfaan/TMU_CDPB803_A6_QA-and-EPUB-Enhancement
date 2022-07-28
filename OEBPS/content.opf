@@ -3,7 +3,7 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
 		<dc:title>Famouse Modern Ghost Stories</dc:title>
 		<dc:language>en-US</dc:language>
-		<dc:identifier id="PrimaryID">978012345678911</dc:identifier>
+		<dc:identifier id="PrimaryID">9780123456789</dc:identifier>
 		<dc:creator id="creator">Various Authors</dc:creator>
 		<dc:publisher>Zag Press</dc:publisher>
 		<dc:date>2016-11-20</dc:date>
@@ -34,6 +34,7 @@
 		<item id="font2" href="fonts/SourceSansPro-BlackIt.otf" media-type="font/otf"/>
 		<item id="font3" href="fonts/SourceSansPro-Light.otf" media-type="font/otf"/>
 		<item id="font4" href="fonts/SourceSansPro-LightIt.otf" media-type="font/otf"/>
+		<item id="font5" href="fonts/SourceSansPro-Semibold.otf" media-type="font/otf"/>
 		<item id="font6" href="fonts/SourceSansPro-SemiboldIt.otf" media-type="font/otf"/>
 	</manifest>
 	<spine toc="ncx">
