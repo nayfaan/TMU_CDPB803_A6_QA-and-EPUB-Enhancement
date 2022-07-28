@@ -35,39 +35,39 @@
 			<content src="Ghost_TOC.xhtml"/>
 		</navPoint>
 
-		<navPoint class="other" id="c01" playOrder="4">
+		<navPoint class="other" id="p01" playOrder="4">
 			<navLabel>
 				<text>At the Gate</text>
 			</navLabel>
 			<content src="Part1.xhtml"/>
 		</navPoint>
 
-		<navPoint class="other" id="c02" playOrder="5">
+		<navPoint class="other" id="p02" playOrder="5">
 			<navLabel>
-				<text>Ligeria</text>
+				<text>Ligeia</text>
 			</navLabel>
 			<content src="Part2.xhtml"/>
 		</navPoint>
 
-		<navPoint class="other" id="c03" playOrder="6">
+		<navPoint class="other" id="p03" playOrder="6">
 			<navLabel>
 				<text>The Haunted Orchard</text>
 			</navLabel>
 			<content src="Part3.xhtml"/>
 		</navPoint>
 
-		<navPoint class="other" id="c04" playOrder="7">
+		<navPoint class="other" id="p04" playOrder="7">
 			<navLabel>
 				<text>The Bowmen</text>
 			</navLabel>
-			<content src="4_Bowmen.xhtml"/>
+			<content src="Part4.xhtml"/>
 		</navPoint>
 
-		<navPoint class="other" id="c05" playOrder="8">
+		<navPoint class="other" id="p05" playOrder="8">
 			<navLabel>
 				<text>A Ghost</text>
 			</navLabel>
-			<content src="5_Ghost.xhtml"/>
+			<content src="Part5.xhtml"/>
 		</navPoint>
 
 	</navMap>

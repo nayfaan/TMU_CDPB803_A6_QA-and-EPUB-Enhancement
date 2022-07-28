@@ -11,7 +11,7 @@
 	</metadata>
 	<manifest>
 		<item id="nav" href="Ghost_TOC.xhtml" media-type="application/xhtml+xml" properties="nav"/>
-		<item id="ncx" href="ghost_NCX.ncx" media-type="application/x-dtbncx+xml"/>
+		<item id="ncx" href="Ghost_NCX.ncx" media-type="application/x-dtbncx+xml"/>
 		<!-- book contents -->
 		<item id="coverpage" href="Ghost_Cover.xhtml" media-type="application/xhtml+xml"/>
 		<item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
