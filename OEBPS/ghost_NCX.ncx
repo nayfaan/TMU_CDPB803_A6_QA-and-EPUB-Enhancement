@@ -6,49 +6,69 @@
 		<meta name="dtb:totalPageCount" content="0"/>
 		<meta name="dtb:maxPageNumber" content="0"/>
 	</head>
-	<docTitle><text>Famous Modern Ghost Stories</text></docTitle>
-	<docAuthor><text>Various Authors</text></docAuthor>
+	<docTitle>
+		<text>Famous Modern Ghost Stories</text>
+	</docTitle>
+	<docAuthor>
+		<text>Various Authors</text>
+	</docAuthor>
 	<navMap>
-		
+
 		<navPoint class="cover" id="coverpage" playOrder="1">
-			<navLabel><text>Cover</text></navLabel>
+			<navLabel>
+				<text>Cover</text>
+			</navLabel>
 			<content src="Ghost_Cover.xhtml"/>
 		</navPoint>
-		
+
 		<navPoint class="other" id="titlepage" playOrder="2">
-			<navLabel><text>Title Page</text></navLabel>
+			<navLabel>
+				<text>Title Page</text>
+			</navLabel>
 			<content src="titlepage.xhtml"/>
 		</navPoint>
-		
+
 		<navPoint class="other" id="nav" playOrder="3">
-			<navLabel><text>Contents</text></navLabel>
+			<navLabel>
+				<text>Contents</text>
+			</navLabel>
 			<content src="Ghost_TOC.xhtml"/>
 		</navPoint>
-		
+
 		<navPoint class="other" id="c01" playOrder="4">
-			<navLabel><text>At the Gate</text></navLabel>
+			<navLabel>
+				<text>At the Gate</text>
+			</navLabel>
 			<content src="Part1.xhtml"/>
 		</navPoint>
-		
+
 		<navPoint class="other" id="c02" playOrder="5">
-			<navLabel><text>Ligeria</text></navLabel>
+			<navLabel>
+				<text>Ligeria</text>
+			</navLabel>
 			<content src="Part2.xhtml"/>
 		</navPoint>
-		
+
 		<navPoint class="other" id="c03" playOrder="6">
-			<navLabel><text>The Haunted Orchard</text></navLabel>
+			<navLabel>
+				<text>The Haunted Orchard</text>
+			</navLabel>
 			<content src="Part3.xhtml"/>
 		</navPoint>
-	
+
 		<navPoint class="other" id="c04" playOrder="7">
-			<navLabel><text>The Bowmen</text></navLabel>
+			<navLabel>
+				<text>The Bowmen</text>
+			</navLabel>
 			<content src="4_Bowmen.xhtml"/>
 		</navPoint>
-	
+
 		<navPoint class="other" id="c05" playOrder="8">
-			<navLabel><text>A Ghost</text></navLabel>
+			<navLabel>
+				<text>A Ghost</text>
+			</navLabel>
 			<content src="5_Ghost.xhtml"/>
 		</navPoint>
-		
+
 	</navMap>
 </ncx>

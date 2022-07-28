@@ -1,122 +1,117 @@
 /* RESET */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 
 /* FM styles */
 
 ol {
-list-style-type:none;
-text-align: center
-font-family:'SourceSansPro-Light';
+    list-style-type: none;
+    text-align: center font-family:'SourceSansPro-Light';
 }
 
 li {
-    font-family:'SourceSansPro-Light';
-    }
+    font-family: 'SourceSansPro-Light';
+}
 
 
 /* body styles */
 
 
 h1 {
-	font-family:'SourceSansPro-Black';
-	text-align: center;
-	font-size: 3em;
-	padding-top: 3em;
-	}
-	
-h2 {	
-	font-family:'SourceSansPro-BlackItalic';
-	text-align: center;
-	font-size:1.75em;
-	margin-bottom: 1.5em;
-	}
-h3 {	
-	font-family:'SourceSansPro-Semibold';
-	text-align: center;
-	font-size:1.5em;
-	margin-bottom: 1.5em;
-	}
+    font-family: 'SourceSansPro-Black';
+    text-align: center;
+    font-size: 3em;
+    padding-top: 3em;
+}
+
+h2 {
+    font-family: 'SourceSansPro-BlackItalic';
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 1.5em;
+}
+
+h3 {
+    font-family: 'SourceSansPro-Semibold';
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
 
 h5 {
-    text-indent:1.40em;
-    text-align:center;
-    font-family:'SourceSansPro-Light';
+    text-indent: 1.40em;
+    text-align: center;
+    font-family: 'SourceSansPro-Light';
 
 }
 
 p {
-    text-indent:1em;
-    text-align:justify;
-    font-family:'SourceSansPro-Light';
+    text-indent: 1em;
+    text-align: justify;
+    font-family: 'SourceSansPro-Light';
 
 }
+
 p.nonindent {
-    text-indent:0em;
-    text-align:justify;
-	font-family:'SourceSansPro-Light';
+    text-indent: 0em;
+    text-align: justify;
+    font-family: 'SourceSansPro-Light';
 }
 
 aside {
-padding-top: 1.3em;
-padding-bottom: 1.3em;
-text-align: center;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    text-align: center;
 }
 
 i {
-	font-family:'SourceSansPro-LightIt';
-	}
+    font-family: 'SourceSansPro-LightIt';
+}
 
 .poem {
     margin-left: 10%;
     margin-right: 10%;
     text-align: left
-    }
+}
+
 .poem .stanza {
     margin: 1em 0 1em 0
-    }
+}
+
 .poem p {
     display: block;
     margin: 0;
     padding-left: 3em;
     text-indent: -3em
-    }
+}
+
 .poem .i2 {
     display: block;
     margin-left: 1em
-    }
+}
+
 .poem .i4 {
     display: block;
     margin-left: 2em
-    }
+}
+
 .poem .i6 {
     display: block;
     margin-left: 3em
-    }
+}
+
 .poem .i16 {
     display: block;
     margin-left: 8em
-    }
-    
+}
+
 /* image styles 
 
 div.image {
@@ -135,30 +130,30 @@ div.cover {
 
 @font-face {
     font-family: 'SourceSansPro-Black';
-    src:url(fonts/SourceSansPro-Black.otf);
+    src: url(fonts/SourceSansPro-Black.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-BlackItalic';
-    src:url(fonts/SourceSansPro-BlackIt.otf);
+    src: url(fonts/SourceSansPro-BlackIt.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-Light';
-    src:url(fonts/SourceSansPro-Light.otf);
+    src: url(fonts/SourceSansPro-Light.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-LightIt';
-    src:url(fonts/SourceSansPro-LightIt.otf);
+    src: url(fonts/SourceSansPro-LightIt.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-Semibold';
-    src:url(fonts/SourceSansPro-Semibold.otf);
+    src: url(fonts/SourceSansPro-Semibold.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-SemiboldIt';
-    src:url(fonts/SourceSansPro-SemiboldIt.otf);
+    src: url(fonts/SourceSansPro-SemiboldIt.otf);
 }
