@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"
     epub:prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0">
 
 <head>
@@ -10,16 +10,22 @@
 </head>
 
 <body>
-    <nav epub:type="toc">
-        <h2>contents</h2>
+    <nav epub:type="toc" role="doc-toc" id="toc">
+        <h1>Contents</h1>
         <ol>
             <li><a href="Ghost_Cover.xhtml">Cover</a></li>
-            <li><a href="titlepage.xhtml">Title age</a></li>
+            <li><a href="titlepage.xhtml">Title Page</a></li>
             <li><a href="Part1.xhtml">At the Gate</a></li>
             <li><a href="Part2.xhtml">Ligeia</a></li>
-            <li><a href="Part4.xhtml">Haunted Orchard</a></li>
-            <li><a href="Part3.xhtml">The Bowmen</a></li>
+            <li><a href="Part3.xhtml">The Haunted Orchard</a></li>
+            <li><a href="Part4.xhtml">The Bowmen</a></li>
             <li><a href="Part5.xhtml">A Ghost</a></li>
+        </ol>
+    </nav>
+    <nav epub:type="landmarks">
+        <ol>
+            <li><a epub:type="toc" href="#toc">Contents</a></li>
+            <li><a epub:type="bodymatter" href="Part1.xhtml">At the Gate</a></li>
         </ol>
     </nav>
 </body>
