@@ -49,7 +49,6 @@
 	</manifest>
 	<spine toc="ncx">
 		<itemref idref="coverpage" linear="yes"/>
-		<itemref idref="nav" linear="yes"/>
 		<itemref idref="titlepage" linear="yes"/>
 		<itemref idref="nav" linear="yes"/>
 		<itemref idref="p01" linear="yes"/>
