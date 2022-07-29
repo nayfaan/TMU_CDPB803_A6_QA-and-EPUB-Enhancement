@@ -8,11 +8,21 @@
 		<dc:publisher>Zag Press</dc:publisher>
 		<dc:date>2016-11-20</dc:date>
 		<meta property="dcterms:modified">2016-11-30T10:00:00Z</meta>
+		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
+		<meta property="schema:accessMode">auditory</meta>
+		<meta property="schema:accessModeSufficient">textual,visual,auditory</meta>
+		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">alternativeText</meta>
+		<meta property="schema:accessibilityFeature">ARIA</meta>
+		<meta property="schema:accessibilityFeature">audioDescription</meta>
+		<meta property="schema:accessibilityHazard">none</meta>
+		<meta property="schema:accessibilitySummary"> This publication has no violations in the ACE by Daisy App. Included images are the book cover images that contains the title and author information. Included audio are background musical soundtracks to accompany the work. Readers unable to access them will not be at a significant disadvantage.</meta>
 	</metadata>
 	<manifest>
 		<item id="nav" href="Ghost_TOC.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item id="ncx" href="Ghost_NCX.ncx" media-type="application/x-dtbncx+xml"/>
-		<!-- book contents -->
+		<!--Content-->
 		<item id="coverpage" href="Ghost_Cover.xhtml" media-type="application/xhtml+xml"/>
 		<item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item id="c01" href="1_AtTheGate.xhtml" media-type="application/xhtml+xml"/>
@@ -39,6 +49,7 @@
 	</manifest>
 	<spine toc="ncx">
 		<itemref idref="coverpage" linear="yes"/>
+		<itemref idref="nav" linear="yes"/>
 		<itemref idref="titlepage" linear="yes"/>
 		<itemref idref="nav" linear="yes"/>
 		<itemref idref="p01" linear="yes"/>
@@ -55,7 +66,7 @@
 	<guide>
 		<reference type="start" title="Start" href="Part1.xhtml"/>
 		<reference type="toc" title="Table of Contents" href="Ghost_TOC.xhtml"/>
-		<reference type="cover" title="Cover" href="Ghost_TOC.xhtml"/>
+		<reference type="cover" title="Cover" href="Ghost_Cover.xhtml"/>
 		<reference type="text" href="Part1.xhtml"/>
 	</guide>
 </package>
