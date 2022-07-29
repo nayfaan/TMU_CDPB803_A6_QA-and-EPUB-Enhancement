@@ -13,7 +13,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 ol {
     list-style-type: none;
-    text-align: center font-family:'SourceSansPro-Light';
+    text-align: center;
+    font-family: 'SourceSansPro-Light';
 }
 
 li {
@@ -25,31 +26,30 @@ li {
 
 
 h1 {
-    font-family: 'SourceSansPro-Black';
-    text-align: center;
     font-size: 3em;
     padding-top: 3em;
+    text-align: center;
+    font-family: 'SourceSansPro-Black';
 }
 
 h2 {
-    font-family: 'SourceSansPro-BlackItalic';
-    text-align: center;
     font-size: 1.75em;
     margin-bottom: 1.5em;
+    text-align: center;
+    font-family: 'SourceSansPro-BlackIt';
 }
 
 h3 {
-    font-family: 'SourceSansPro-Semibold';
-    text-align: center;
     font-size: 1.5em;
     margin-bottom: 1.5em;
+    text-align: center;
+    font-family: 'SourceSansPro-Semibold';
 }
 
 h5 {
-    text-indent: 1.40em;
+    text-indent: 1.4em;
     text-align: center;
     font-family: 'SourceSansPro-Light';
-
 }
 
 p {
@@ -78,53 +78,52 @@ i {
 .poem {
     margin-left: 10%;
     margin-right: 10%;
-    text-align: left
+    text-align: left;
 }
 
 .poem .stanza {
-    margin: 1em 0 1em 0
+    margin: 1em 0 1em 0;
 }
 
 .poem p {
     display: block;
     margin: 0;
     padding-left: 3em;
-    text-indent: -3em
+    text-indent: -3em;
 }
 
 .poem .i2 {
     display: block;
-    margin-left: 1em
+    margin-left: 1em;
 }
 
 .poem .i4 {
     display: block;
-    margin-left: 2em
+    margin-left: 2em;
 }
 
 .poem .i6 {
     display: block;
-    margin-left: 3em
+    margin-left: 3em;
 }
 
 .poem .i16 {
     display: block;
-    margin-left: 8em
+    margin-left: 8em;
 }
 
-/* image styles 
+/* image styles */
 
 div.image {
-	text-align:center;
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-	
-div.cover {
-	text-align:center;
-	page-break-inside:avoid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
+div.cover {
+    text-align: center;
+    page-break-inside: avoid;
+}
 
 /* fonts */
 
@@ -134,7 +133,7 @@ div.cover {
 }
 
 @font-face {
-    font-family: 'SourceSansPro-BlackItalic';
+    font-family: 'SourceSansPro-BlackIt';
     src: url(fonts/SourceSansPro-BlackIt.otf);
 }
 
