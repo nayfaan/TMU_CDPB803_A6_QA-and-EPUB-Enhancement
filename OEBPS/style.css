@@ -87,7 +87,7 @@ aside {
 
 b {
     font-family: 'SourceSansPro-Black';
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 i {
@@ -104,7 +104,7 @@ b i,
 i b {
     font-family: 'SourceSansPro-BlackIt';
     font-style: italic;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .poem {
@@ -153,28 +153,28 @@ div.audio {
 @font-face {
     font-family: 'SourceSansPro-Black';
     font-style: normal;
-    font-weight: bolder;
+    font-weight: bold;
     src: url(fonts/SourceSansPro-Black.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-BlackIt';
     font-style: italic;
-    font-weight: bolder;
+    font-weight: bold;
     src: url(fonts/SourceSansPro-BlackIt.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-Light';
     font-style: normal;
-    font-weight: lighter;
+    font-weight: normal;
     src: url(fonts/SourceSansPro-Light.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-LightIt';
     font-style: italic;
-    font-weight: lighter;
+    font-weight: normal;
     src: url(fonts/SourceSansPro-LightIt.otf);
 }
 
@@ -202,6 +202,6 @@ div.audio {
 @font-face {
     font-family: 'Limelight-Regular';
     font-style: normal;
-    font-weight: bolder;
+    font-weight: bold;
     src: url(fonts/Limelight-Regular.ttf);
 }
