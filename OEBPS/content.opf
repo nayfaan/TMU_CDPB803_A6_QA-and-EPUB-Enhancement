@@ -39,6 +39,11 @@
 		<item id="css" href="style.css" media-type="text/css"/>
 		<!--images-->
 		<item id="coverimg" href="images/cover.jpg" media-type="image/jpeg"/>
+		<item id="p01cover" href="images/Part1_cover.jpg" media-type="image/jpeg"/>
+		<item id="p02cover" href="images/Part2_cover.jpg" media-type="image/jpeg"/>
+		<item id="p03cover" href="images/Part3_cover.jpg" media-type="image/jpeg"/>
+		<item id="p04cover" href="images/Part4_cover.jpg" media-type="image/jpeg"/>
+		<item id="p05cover" href="images/Part5_cover.jpg" media-type="image/jpeg"/>
 		<!--audios-->
 		<item id="audio-ghost" href="audio/ghost.mp3" media-type="audio/mp3" />
 		<!--fonts-->
@@ -48,6 +53,8 @@
 		<item id="font4" href="fonts/SourceSansPro-LightIt.otf" media-type="font/otf"/>
 		<item id="font5" href="fonts/SourceSansPro-Semibold.otf" media-type="font/otf"/>
 		<item id="font6" href="fonts/SourceSansPro-SemiboldIt.otf" media-type="font/otf"/>
+		<item id="font7" href="fonts/Graduate-Regular.ttf" media-type="font/ttf"/>
+		<item id="font8" href="fonts/Limelight-Regular.ttf" media-type="font/ttf"/>
 	</manifest>
 	<spine toc="ncx">
 		<itemref idref="coverpage" linear="yes"/>
