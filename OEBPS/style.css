@@ -1,5 +1,5 @@
 /* RESET */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -23,6 +23,7 @@ li {
 
 
 /* body styles */
+
 body {
     padding: 5%;
 }
@@ -62,10 +63,20 @@ p {
 
 }
 
-p.nonindent {
+p.noindent {
     text-indent: 0em;
     text-align: justify;
     font-family: 'SourceSansPro-Light';
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 3.5em;
+    margin-inline-end: 3.5em;
+    border-left: 3px solid grey;
+    padding-left: 1em;
 }
 
 aside {
@@ -74,8 +85,26 @@ aside {
     text-align: center;
 }
 
+b {
+    font-family: 'SourceSansPro-Black';
+    font-weight: bolder;
+}
+
 i {
-    font-family: 'SourceSansPro-LightIt';
+    font-family: inherit;
+    font-style: italic;
+}
+
+aside i {
+    font-family: 'SourceSansPro-SemiboldIt';
+    font-style: italic;
+}
+
+b i,
+i b {
+    font-family: 'SourceSansPro-BlackIt';
+    font-style: italic;
+    font-weight: bolder;
 }
 
 .poem {
@@ -100,62 +129,59 @@ i {
     margin-left: 1em;
 }
 
-.poem .i4 {
-    display: block;
-    margin-left: 2em;
-}
-
-.poem .i6 {
-    display: block;
-    margin-left: 3em;
-}
-
-.poem .i16 {
-    display: block;
-    margin-left: 8em;
-}
-
 /* image styles */
-
-div.image {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    text-align: center;
-}
 
 div.cover {
     text-align: center;
     page-break-inside: avoid;
 }
 
+/* audio styles */
+
+div.audio {
+    text-align: center;
+}
+
 /* fonts */
 
 @font-face {
     font-family: 'SourceSansPro-Black';
+    font-style: normal;
+    font-weight: bolder;
     src: url(fonts/SourceSansPro-Black.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-BlackIt';
+    font-style: italic;
+    font-weight: bolder;
     src: url(fonts/SourceSansPro-BlackIt.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-Light';
+    font-style: normal;
+    font-weight: lighter;
     src: url(fonts/SourceSansPro-Light.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-LightIt';
+    font-style: italic;
+    font-weight: lighter;
     src: url(fonts/SourceSansPro-LightIt.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-Semibold';
+    font-style: normal;
+    font-weight: bold;
     src: url(fonts/SourceSansPro-Semibold.otf);
 }
 
 @font-face {
     font-family: 'SourceSansPro-SemiboldIt';
+    font-style: italic;
+    font-weight: bold;
     src: url(fonts/SourceSansPro-SemiboldIt.otf);
 }
